@@ -4,6 +4,7 @@ export interface Post extends Document, SchemaTimestampsConfig {
   title: string
   content: string
   description: string
+  img: string
 }
 
 export interface User extends Document, SchemaTimestampsConfig {

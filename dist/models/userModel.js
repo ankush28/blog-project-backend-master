@@ -46,6 +46,7 @@ var userSchema = new mongoose_1.default.Schema({
     username: {
         type: String,
         required: true,
+        unique: true,
     },
     password: {
         type: String,

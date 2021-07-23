@@ -17,6 +17,9 @@ const postSchema = new mongoose.Schema<Post>(
     author: {
       type: String,
     },
+    img: {
+      type: String,
+    },
   },
   {
     timestamps: true,

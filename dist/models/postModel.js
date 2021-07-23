@@ -19,6 +19,9 @@ var postSchema = new mongoose_1.default.Schema({
     author: {
         type: String,
     },
+    img: {
+        type: String,
+    },
 }, {
     timestamps: true,
 });
