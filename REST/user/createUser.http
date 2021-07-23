@@ -1,0 +1,7 @@
+POST https://blog-project-backend1.herokuapp.com/api/user
+Content-Type: application/json
+
+{
+	"username": "admin",
+	"password": "admin"
+}
